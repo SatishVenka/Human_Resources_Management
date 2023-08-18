@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-16T12:12:50 IST" name="Default suite" finished-at="2023-08-16T12:12:50 IST" duration-ms="76">
+    <groups>
+      <group name="Regression">
+        <method signature="Delete.explain()[pri:0, instance:com.Maven.Delete@cd3fee8]" name="explain" class="com.Maven.Delete"/>
+      </group> <!-- Regression -->
+      <group name="smoke">
+        <method signature="Create.create()[pri:0, instance:com.Maven.Create@57c758ac]" name="create" class="com.Maven.Create"/>
+      </group> <!-- smoke -->
+      <group name="Smoke">
+        <method signature="Delete.delete()[pri:0, instance:com.Maven.Delete@cd3fee8]" name="delete" class="com.Maven.Delete"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-08-16T12:12:50 IST" name="Default test" finished-at="2023-08-16T12:12:50 IST" duration-ms="76">
+      <class name="com.Maven.Delete">
+        <test-method signature="delete()[pri:0, instance:com.Maven.Delete@cd3fee8]" started-at="2023-08-16T12:12:50 IST" name="delete" finished-at="2023-08-16T12:12:50 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method signature="explain()[pri:0, instance:com.Maven.Delete@cd3fee8]" started-at="2023-08-16T12:12:50 IST" name="explain" finished-at="2023-08-16T12:12:50 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- explain -->
+      </class> <!-- com.Maven.Delete -->
+      <class name="com.Maven.Create">
+        <test-method signature="create()[pri:0, instance:com.Maven.Create@57c758ac]" started-at="2023-08-16T12:12:50 IST" name="create" finished-at="2023-08-16T12:12:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method signature="details()[pri:0, instance:com.Maven.Create@57c758ac]" started-at="2023-08-16T12:12:50 IST" name="details" finished-at="2023-08-16T12:12:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- details -->
+      </class> <!-- com.Maven.Create -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

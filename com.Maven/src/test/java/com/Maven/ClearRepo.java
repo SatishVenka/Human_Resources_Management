@@ -7,7 +7,7 @@ public class ClearRepo {
 	@Test
 	public void  clear()
 	{
-		System.out.println("clear repo");
+		System.out.println("clear in to branches repo ");
 	}
 
 }

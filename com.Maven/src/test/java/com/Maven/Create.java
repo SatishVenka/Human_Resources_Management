@@ -6,7 +6,7 @@ public class Create {
 @Test(groups="Regression")
 public void create()
 {
-	System.out.println("---created new repo--");
+	System.out.println("---created new");
 }
 
 @Test(groups="Smoke")
